@@ -1,0 +1,71 @@
+table {
+  margin-top: 20px;
+  border-collapse:collapse;
+}
+
+table > tr:nth-child(2n) {
+  background-color: #ddd;
+}
+
+table tr > td {
+  padding: 5px;
+}
+
+table thead .node-col {
+  cursor: pointer;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+body {
+  background-color: #fff;
+  background-image: url(./img/hexadotlines-optimized-bg.svg);
+  background-position: center -13px;
+  background-repeat: no-repeat;
+  background-size: 960px 526px;
+  
+}
+
+
+
+.btn-primary {
+  background: #F88100;
+  border: 1px solid #222;
+  border-radius: 4px;
+  padding: 9px 20px;
+
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open>.dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #1e2a2c;
+  border-color: #285e8e;
+  /*set the color you want here*/
+}
+.jumbotron {
+   background-color: rgb(50, 43, 45);
+   opacity: 0.9;
+   zoom: 1;
+  
+}
+p.lead.container.content {
+  color: aliceblue;
+}
+
+.form-control {
+  float: right;
+  width: 45%;
+}
+
+.loading {
+width: 100px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
