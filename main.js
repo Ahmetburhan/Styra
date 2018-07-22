@@ -75,7 +75,7 @@ $("#seedCount").on('click', function (e) {
       });
     });
 
-// render(result);
+render(result);
 
    
 
